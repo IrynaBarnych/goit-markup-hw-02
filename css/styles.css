@@ -4,16 +4,25 @@
     --second-text-color: #fff;
     --accent-color: #4D5AE5;
     --fon-team-color: #F4F4FD;
+    --button-active: #404BBF;
+    --button-noactive: #F4F4FD;
+    --footer-color: #E7E9FC;
+
 
 }
 
 
 
 .body {
-    background-color: var(--second-text-color);
-    color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
-    
+    color: var(--title-text-color);
+    background-color: var(--second-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+   
 }
 
 ul {
@@ -28,7 +37,7 @@ ul {
     font-family: Raleway, sans-serif;
     font-size: 18px;
     line-height: 1.33;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
@@ -38,12 +47,11 @@ ul {
     color: var(--title-text-color);
  }
 
+ 
 .site-nav .link {
     color: var(--title-text-color);
-    font-size: 16px;
-    line-height: 1.5;
     text-decoration: none;
-    letter-spacing: 2%;
+    
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -51,15 +59,14 @@ ul {
 }
 
 .site-nav .link.current {
-    color: var(--accent-color)
+    color: var(--accent-color);
+    text-decoration: none;
 }
 
 .addres-contact .link  {
     color: var(--title-text-color);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 2%;
     text-decoration: none;
+    font-style: normal;
 }
 
 .addres-contact .link:hover,
@@ -72,23 +79,24 @@ ul {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 2%;
-
-
 }
 
 .button.primary {
-    font-family: Roboto, sans-serif;
     color: var(--second-text-color);
     background-color: var(--accent-color);
-    font-size: 16px;
-    line-height: 1.5;
     text-align: center;
     cursor: pointer;
-    letter-spacing: 4%;
-
+    letter-spacing: 0.04em;
 }
 
+.button.primary:hover,
+.button.primary:focus {
+    color: var(--accent-color);
+    background-color: var(--second-text-color);
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+}
 
 .section-team {
     background-color: var(--fon-team-color);
@@ -98,14 +106,7 @@ ul {
     color: var(--title-text-color);
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 2%;
-}
-
-.section-description {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 2%;
-}
+   }
 
 .hero {
     background-color: var(--title-text-color);
@@ -115,39 +116,52 @@ ul {
     color: var(--title-text-color);
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 2%;
-}
+    }
 
 .teams {
     color: var(--title-text-color);
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 2%;
-}
+    }
 .team-job {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 2%;
+    color: var(--primary-text-color);
+}
+
+
+.button-nav-port {
+    color: var(--accent-color);
+    background-color: var(--footer-color);
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+}
+
+.button-nav-port:hover,
+.button-nav-port:focus  {
+    color: var(--second-text-color);
+    background-color: var(--button-active);
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.04em;
 }
 
 .footer {
-    color: var(--second-text-color);
+        color: var(--second-text-color);
     background-color: var(--title-text-color);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 2%;
+
+
+ 
 } 
 .logo_second_footer {
-    color: var(--second-text-color);
-    letter-spacing: 3%;
+    color: var(--fon-team-color);
+
 
 }
 
 .button-map {
         cursor: pointer;
-        font-family: Roboto, sans-serif;
-        letter-spacing: 4%;
+        letter-spacing: 0.04em;
 }
 
 
