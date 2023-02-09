@@ -1,25 +1,27 @@
 :root {
-    --primary-text-color: #434455;
-    --title-text-color: #2E2F42;
+    --Text : #434455;
+    --Dark: #2E2F42;
     --second-text-color: #fff;
-    --accent-color: #4D5AE5;
-    --fon-team-color: #F4F4FD;
-    --button-active: #404BBF;
+    --Primary-Brand : #4D5AE5;
+    --Light: #F4F4FD;
+    --Pressed-state: #404BBF;
     --button-noactive: #F4F4FD;
-    --footer-color: #E7E9FC;
-
+    --Accent: #E7E9FC;
+    --Success: #31D0AA;
+    --Subtle-Text: #8E8F99;
+    --Modal-overlay: #2E2F4266;
+    --Hero-background: #2E2F42B2;
 
 }
 
-
-
 .body {
     font-family: Roboto, sans-serif;
-    color: var(--title-text-color);
+    font-weight: regular;
+    color: var(--Dark);
     background-color: var(--second-text-color);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    /*letter-spacing: 0.02em;*/
     text-decoration: none;
 
    
@@ -33,7 +35,7 @@ ul {
 
 
 .logo_first {
-    color: var(--accent-color);
+    color: var(--Primary-Brand);
     font-family: Raleway, sans-serif;
     font-size: 18px;
     line-height: 1.33;
@@ -44,124 +46,168 @@ ul {
 }
 
 .logo_second {
-    color: var(--title-text-color);
+    color: var(--Dark);
  }
 
  
 .site-nav .link {
-    color: var(--title-text-color);
+    color: var(--Dark);
+    letter-spacing: 0.02em;
     text-decoration: none;
     
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--accent-color);
+    color: var(--Pressed-state);
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
-    color: var(--accent-color);
+    color: var(--Primary-Brand);
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 
 .addres-contact .link  {
-    color: var(--title-text-color);
+    color: var(--Text);
+    letter-spacing: 0.02em;
     text-decoration: none;
     font-style: normal;
 }
 
 .addres-contact .link:hover,
 .addres-contact .link:focus {
-    color: var(--accent-color);
+    color: var(--Pressed-state);
+}
+.fon-hero-title {
+    background-color: var(--Dark);
+    position: absolute;
+    width: 1440px;
+    height: 400px;
+      
 }
 
 .hero-title {
     color: var(--second-text-color);
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
-.button.primary {
+.button-main {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5; 
+    font-style: Medium;
+    letter-spacing: 0.04em;
+    background-color: var(--Primary-Brand);
+    text-align: center;
+    cursor: pointer;
     color: var(--second-text-color);
-    background-color: var(--accent-color);
+    position: absolute;
+    width: 169px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    }
+
+.button-main:hover,
+.button-main:focus {
+    color: var(--second-text-color);
+    background-color: var(--Pressed-state);
     text-align: center;
     cursor: pointer;
     letter-spacing: 0.04em;
-}
-
-.button.primary:hover,
-.button.primary:focus {
-    color: var(--accent-color);
-    background-color: var(--second-text-color);
-    text-align: center;
-    cursor: pointer;
-    letter-spacing: 0.04em;
-}
-
-.section-team {
-    background-color: var(--fon-team-color);
 }
 
 .section-title {
-    color: var(--title-text-color);
+    color: var(--Dark);
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
    }
 
-.hero {
-    background-color: var(--title-text-color);
+.section-description {
+    color: #434455;
+    letter-spacing: 0.02em;
 }
+
 
 .doing {
-    color: var(--title-text-color);
+    color: var(--Dark);
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     }
 
+  
 .teams {
-    color: var(--title-text-color);
+    color: var(--Dark);
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     }
-.team-job {
-    color: var(--primary-text-color);
+
+.worker-fon {
+    background-color: var(--Light);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
+.worker {
+    color: var(--Dark);
+
+}
+.team-job {
+    color: var(--Text);
+}
 
 .button-nav-port {
-    color: var(--accent-color);
-    background-color: var(--footer-color);
+    color: var(--Primary-Brand);
+    background-color: var(--button-noactive);
     text-align: center;
     cursor: pointer;
     letter-spacing: 0.04em;
+    border-color: var(--Accent);
+    width: 116px;
+    height: 48px;
 }
 
 .button-nav-port:hover,
 .button-nav-port:focus  {
     color: var(--second-text-color);
-    background-color: var(--button-active);
+    background-color: var(--Pressed-state);
     text-align: center;
     cursor: pointer;
     letter-spacing: 0.04em;
 }
 
+.fon-photo {
+    background-color: var(--second-text-color);
+    border-color: var(--Accent);
+}
+
+.description {
+    color: var(--Text);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .footer {
-        color: var(--second-text-color);
-    background-color: var(--title-text-color);
+    color: var(--Accent);
+    background-color: var(--Dark);
 
-
- 
 } 
 .logo_second_footer {
-    color: var(--fon-team-color);
-
-
+    color: var(--button-noactive);
 }
 
-.button-map {
-        cursor: pointer;
-        letter-spacing: 0.04em;
-}
+
+
 
 
