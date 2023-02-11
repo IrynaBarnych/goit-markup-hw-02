@@ -34,6 +34,7 @@ ul {
 .logo_first {
     font-family: Raleway, sans-serif;
     color: var(--primary-brand);
+    font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
     text-decoration: none;
@@ -48,6 +49,7 @@ ul {
  
 .site-nav .link {
     color: var(--dark);
+    font-weight: 500;
     text-decoration: none;
     
 }
@@ -79,6 +81,7 @@ ul {
 
 .hero-title {
     color: var(--second-text-color);
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
 }
@@ -87,6 +90,7 @@ ul {
     font-family: Roboto, sans-serif;
     background-color: var(--primary-brand);
     color: var(--second-text-color);
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5; 
     text-align: center;
@@ -102,17 +106,19 @@ ul {
 
 .section-title {
     color: var(--dark);
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     }
 
 .section-description {
     color: #434455;
-   }
+    }
 
 
 .doing {
     color: var(--dark);
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     }
@@ -123,6 +129,7 @@ ul {
 
 .teams {
     color: var(--dark);
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -136,6 +143,7 @@ ul {
 
 .worker {
     color: var(--dark);
+    font-weight: 500;
 
 }
 .team-job {
@@ -144,6 +152,7 @@ ul {
 
 .button-nav-port {
     font-family: Roboto, sans-serif;
+    font-weight: 500;
     border-color: var(--accent);
     background-color: var(--button-noactive);
     color: var(--primary-brand);
@@ -174,6 +183,7 @@ ul {
 
 } 
 .logo_second_footer {
+    font-weight: 800;
     color: var(--button-noactive);
 }
 
