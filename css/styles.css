@@ -22,8 +22,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-
-   
 }
 
 ul {
@@ -160,7 +158,6 @@ ul {
     color: var(--second-text-color);
     background-color: var(--pressed-state);
 }
-
 
 .fon-photo {
     background-color: var(--second-text-color);
